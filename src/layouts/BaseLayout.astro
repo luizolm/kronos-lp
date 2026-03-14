@@ -1,7 +1,7 @@
 ---
 import "../styles/global.css";
-import FacebookPixel from "../components/FacebookPixel.astro";
-
+import GTMHead from "../components/GTMHead.astro";
+import GTMBody from "../components/GTMBody.astro";
 interface Props {
   title?: string;
   description?: string;
@@ -40,9 +40,10 @@ const {
       href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300..800&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,400&display=swap"
       rel="stylesheet"
     />
-    <FacebookPixel />
+    <GTMHead />
   </head>
   <body>
+    <GTMBody />
     <slot />
     <script>
       // Intersection Observer for reveal animations
