@@ -397,7 +397,7 @@ export default function RoiCalculator() {
                 }}
                 onMouseEnter={(e) => e.currentTarget.style.background = "var(--purple)"}
                 onMouseLeave={(e) => e.currentTarget.style.background = "transparent"}
-              >
+                id="cta-comecar-calculadora"
                 COMEÇAR GRATUITAMENTE
               </a>
             </div>
