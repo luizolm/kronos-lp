@@ -1,0 +1,125 @@
+[2m23:03:53[22m [34m[content][39m Syncing content
+[33m[1m23:03:53[22m [WARN] [glob-loader][39m The base directory "C:\Users\luizo\.gemini\antigravity\scratch\kronos-lp\src\content\blog\" does not exist.
+[2m23:03:53[22m [34m[content][39m Synced content
+[2m23:03:53[22m [34m[types][39m Generated [2m725ms[22m
+[2m23:03:53[22m [34m[check][39m Getting diagnostics for Astro files in C:\Users\luizo\.gemini\antigravity\scratch\kronos-lp...
+[96msrc/components/blocks/FAQ.astro[0m:[93m6[0m:[93m25[0m - [91merror[0m[90m ts(18048): [0m'entry' is possibly 'undefined'.
+
+[7m6[0m const { socialProof } = entry.data;
+[7m [0m [91m                        ~~~~~[0m
+[96msrc/components/blocks/FAQ.astro[0m:[93m479[0m:[93m18[0m - [91merror[0m[90m ts(2339): [0mProperty 'style' does not exist on type 'Element'.
+
+[7m479[0m           answer.style.maxHeight = answer.scrollHeight + 'px';
+[7m   [0m [91m                 ~~~~~[0m
+[96msrc/components/blocks/FAQ.astro[0m:[93m472[0m:[93m18[0m - [91merror[0m[90m ts(2339): [0mProperty 'style' does not exist on type 'Element'.
+
+[7m472[0m         if (a) a.style.maxHeight = '0';
+[7m   [0m [91m                 ~~~~~[0m
+
+[96msrc/components/blocks/GSAPWhatsAppDemo.astro[0m:[93m647[0m:[93m23[0m - [91merror[0m[90m ts(7006): [0mParameter 'container' implicitly has an 'any' type.
+
+[7m647[0m   function showTyping(container) {
+[7m   [0m [91m                      ~~~~~~~~~[0m
+[96msrc/components/blocks/GSAPWhatsAppDemo.astro[0m:[93m607[0m:[93m25[0m - [91merror[0m[90m ts(7006): [0mParameter 'msg' implicitly has an 'any' type.
+
+[7m607[0m   function createBubble(msg) {
+[7m   [0m [91m                        ~~~[0m
+
+[96msrc/components/blocks/Hero.astro[0m:[93m20[0m:[93m25[0m - [91merror[0m[90m ts(18048): [0m'entry' is possibly 'undefined'.
+
+[7m20[0m const { socialProof } = entry.data;
+[7m  [0m [91m                        ~~~~~[0m
+
+[96msrc/components/blocks/SocialProof.astro[0m:[93m5[0m:[93m23[0m - [91merror[0m[90m ts(18048): [0m'entry' is possibly 'undefined'.
+
+[7m5[0m const { companies } = entry.data;
+[7m [0m [91m                      ~~~~~[0m
+[96msrc/components/blocks/SocialProof.astro[0m:[93m7[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'iconPaths' is declared but its value is never read.
+
+[7m7[0m const iconPaths: Record<string, string> = {
+[7m [0m [93m      ~~~~~~~~~[0m
+
+[96msrc/components/blocks/Testimonials.astro[0m:[93m5[0m:[93m46[0m - [91merror[0m[90m ts(18048): [0m'entry' is possibly 'undefined'.
+
+[7m5[0m const { testimonials, metrics, caseStudy } = entry.data;
+[7m [0m [91m                                             ~~~~~[0m
+[96msrc/components/blocks/Testimonials.astro[0m:[93m377[0m:[93m21[0m - [91merror[0m[90m ts(7006): [0mParameter 'current' implicitly has an 'any' type.
+
+[7m377[0m     const update = (current) => {
+[7m   [0m [91m                    ~~~~~~~[0m
+[96msrc/components/blocks/Testimonials.astro[0m:[93m370[0m:[93m27[0m - [91merror[0m[90m ts(7006): [0mParameter 'el' implicitly has an 'any' type.
+
+[7m370[0m   const animateCounter = (el) => {
+[7m   [0m [91m                          ~~[0m
+
+[96msrc/components/blocks/VideoTestimonials.astro[0m:[93m57[0m:[93m15[0m - [93mwarning[0m[90m ts(6385): [0m'frameborder' is deprecated.
+
+[7m57[0m               frameborder="0"
+[7m  [0m [93m              ~~~~~~~~~~~[0m
+
+[96msrc/components/ui/RoiCalculator.jsx[0m:[93m431[0m:[93m9[0m - [93mwarning[0m[90m ts(7027): [0mUnreachable code detected.
+
+[7m431[0m       </div>
+[7m   [0m [93m        ~~~~[0m
+[7m432[0m 
+[7m   [0m [93m[0m
+[7m...[0m 
+[7m466[0m     </section>
+[7m   [0m [93m~~~~~~~~~~~~~~[0m
+[7m467[0m   );
+[7m   [0m [93m~~~~[0m
+[96msrc/components/ui/RoiCalculator.jsx[0m:[93m7[0m:[93m3[0m - [93mwarning[0m[90m ts(6133): [0m'MousePointerClick' is declared but its value is never read.
+
+[7m7[0m   MousePointerClick,
+[7m [0m [93m  ~~~~~~~~~~~~~~~~~[0m
+[96msrc/components/ui/RoiCalculator.jsx[0m:[93m4[0m:[93m3[0m - [93mwarning[0m[90m ts(6133): [0m'Calculator' is declared but its value is never read.
+
+[7m4[0m   Calculator,
+[7m [0m [93m  ~~~~~~~~~~[0m
+[96msrc/components/ui/RoiCalculator.jsx[0m:[93m1[0m:[93m27[0m - [93mwarning[0m[90m ts(6133): [0m'useEffect' is declared but its value is never read.
+
+[7m1[0m import React, { useState, useEffect } from "react";
+[7m [0m [93m                          ~~~~~~~~~[0m
+[96msrc/components/ui/RoiCalculator.jsx[0m:[93m467[0m:[93m3[0m - [91merror[0m[90m ts(1109): [0mExpression expected.
+
+[7m467[0m   );
+[7m   [0m [91m  ~[0m
+[96msrc/components/ui/RoiCalculator.jsx[0m:[93m466[0m:[93m5[0m - [91merror[0m[90m ts(1128): [0mDeclaration or statement expected.
+
+[7m466[0m     </section>
+[7m   [0m [91m    ~~[0m
+[96msrc/components/ui/RoiCalculator.jsx[0m:[93m431[0m:[93m7[0m - [91merror[0m[90m ts(1005): [0m')' expected.
+
+[7m431[0m       </div>
+[7m   [0m [91m      ~~[0m
+[96msrc/components/ui/RoiCalculator.jsx[0m:[93m430[0m:[93m11[0m - [91merror[0m[90m ts(17002): [0mExpected corresponding JSX closing tag for 'section'.
+
+[7m430[0m         </div>
+[7m   [0m [91m          ~~~[0m
+[96msrc/components/ui/RoiCalculator.jsx[0m:[93m429[0m:[93m13[0m - [91merror[0m[90m ts(17002): [0mExpected corresponding JSX closing tag for 'div'.
+
+[7m429[0m           </motion.div>
+[7m   [0m [91m            ~~~~~~~~~~[0m
+[96msrc/components/ui/RoiCalculator.jsx[0m:[93m402[0m:[93m17[0m - [91merror[0m[90m ts(17002): [0mExpected corresponding JSX closing tag for 'div'.
+
+[7m402[0m               </a>
+[7m   [0m [91m                ~[0m
+[96msrc/components/ui/RoiCalculator.jsx[0m:[93m402[0m:[93m15[0m - [91merror[0m[90m ts(1003): [0mIdentifier expected.
+
+[7m402[0m               </a>
+[7m   [0m [91m              ~~[0m
+[96msrc/components/ui/RoiCalculator.jsx[0m:[93m255[0m:[93m12[0m - [91merror[0m[90m ts(17008): [0mJSX element 'motion.div' has no corresponding closing tag.
+
+[7m255[0m           <motion.div
+[7m   [0m [91m           ~~~~~~~~~~[0m
+
+[96msrc/pages/index.astro[0m:[93m13[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'Integrations' is declared but its value is never read.
+
+[7m13[0m import Integrations from "@components/blocks/Integrations.astro";
+[7m  [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+Result (24 files): 
+- 18 errors
+- 0 warnings
+- 7 hints
+
